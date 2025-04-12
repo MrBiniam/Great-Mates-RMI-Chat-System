@@ -3,7 +3,8 @@
 ## Developed by Great Mates
 *Dilla University - 4th Year Students - Introduction to Distributed Systems Course Project*
 
-![Dilla University](https://dillauniversity.edu.et/wp-content/uploads/2023/01/Dilla_University-1.png)
+
+![Great Mates](https://github.com/user-attachments/assets/3bc6810a-889d-4d5c-b9de-9ed4238bf2ce)
 
 ## Overview
 A modern, elegant chat application built with Java RMI (Remote Method Invocation) technology. This distributed system demonstrates practical implementation of remote object communication in a real-world application.
