@@ -11,12 +11,6 @@ import java.util.Vector;
 
 import client.ChatClient3IF;
 
-/**
- * 
- * @author Daragh Walshe 	B00064428
- * RMI Assignment 2		 	April 2015
- *
- */
 public class ChatServer extends UnicastRemoteObject implements ChatServerIF {
 	String line = "---------------------------------------------\n";
 	private Vector<Chatter> chatters;
@@ -118,12 +112,6 @@ public class ChatServer extends UnicastRemoteObject implements ChatServerIF {
 	}
 
 	
-	/**
-	 * register the clients interface and store it in a reference for 
-	 * future messages to be sent to, ie other members messages of the chat session.
-	 * send a test message for confirmation / test connection
-	 * @param details
-	 */
 	private void registerChatter(String[] details){		
 		try{
 			ChatClient3IF nextClient = ( ChatClient3IF )Naming.lookup("rmi://" + details[1] + "/" + details[2]);
