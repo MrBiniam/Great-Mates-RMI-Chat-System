@@ -38,13 +38,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-/**
- * 
- * @author Daragh Walshe 	B00064428
- * RMI Assignment 2		 	April 2015
- * Enhanced UI by Great Mates Team
- *
- */
+
 public class ClientRMIGUI extends JFrame implements ActionListener{
 	
 	private static final long serialVersionUID = 1L;	
